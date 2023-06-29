@@ -1,0 +1,45 @@
+import YouTubeVid from "../../components/YouTubeVid";
+import { Callout } from "nextra/components";
+
+# Bird's Eye View
+
+You should've received the gentlest of introductions with the MIT video on RNNs. Now, we'll zoom in some more.
+
+## The Illustrated Transformer
+
+![transformer](./tran.png)
+
+Alammar's beloved blog post has spawned several videos and notebooks, available in the [post itself](https://jalammar.github.io/illustrated-transformer/).
+
+At the time of writing, the images aren't rendering. If that's still a problem by the time you look at this, I'd recommend watching the video or just moving on.
+
+Some parts of this explanation are more lucid than others. The section on positional encoding was really hard for me to grasp the first time through, for instance. If that's you, fear not. We will hit all this stuff from a few different angles, then return back to Alammar for another expert-level walkthrough of the same basic concepts. By the end, if you've studied it all intensely, you'll be able to explain a transformer like GPT front and back off the top of your head.
+
+## Hedu AI
+
+This video series is my absolute _pleasure_ to share with you. Quirky, nerdy, and the most intellectually satisfying, Hedu AI's series is the perfect chaser to the shot of _The Illustrated Transformer_. The first video in the series is a philosophical exploration of the concept of attention, which is cool but not super relevant to our goal here.
+
+If positional encodings was confusing in the Alammar post, Hedu will walk you through it first before even touching on multi-headed self-attention at all.
+
+<YouTubeVid id="dichIcUZfOw" />
+
+While the underlying math may still feel foggy after this, from a high-level perspective Hedu AI really delivers in capturing its motivations and underlying mechanisms.
+
+<YouTubeVid id="mMa2PmYJlCo" />
+
+Finally, as a way of warming up for the next section (and rounding out your understanding of the original transformers paper and its decoder section) Hedu walks through masking self-attention for decoders.
+
+<Callout>
+  Note also in this section that Hedu discusses residuals, which we've helpfully
+  already been introduced to in Serena Yeong's class at Stanford.
+</Callout>
+
+<YouTubeVid id="gJ9kaJsE78k" />
+
+## Ari Seff
+
+Now we are in a position to enjoy something a bit more rigorous.
+
+<YouTubeVid id="XSSTuhyAmnI" />
+
+Ari Seff will help dial in these concepts in a brisk 17 minutes. After that, we'll be ready to roll up our sleeves and write some actual code.

@@ -1,0 +1,6 @@
+{
+  "LinReg": "Regression Models",
+  "Math": "Calc and Linear Algebra",
+  "Preprocessing": "Data Preprocessing",
+  "trees": "XGBoost and Random Forest"
+}
